@@ -4,7 +4,7 @@ import { mainStyle } from "../../styles/GlobalStyles";
 const Wrap = styled.div`
   width: 100%;
   height: 100vh;
-  background-color: #1d1d1d;
+  background-color: #333;
   display: flex;
   justify-content: center;
   align-items: center;
