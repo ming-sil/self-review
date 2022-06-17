@@ -3,7 +3,7 @@ import { mainStyle } from "../../styles/GlobalStyles";
 
 const Wrap = styled.div`
   width: 100%;
-  height: 80vh;
+  height: 100vh;
   background-color: #1d1d1d;
   display: flex;
   justify-content: center;
@@ -17,13 +17,14 @@ const ConWrap = styled.div`
 
 const Anchor = styled.a`
   width: 30%;
+  height: 500px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
   img {
-    width: 130%;
+    width: 100%;
   }
   div {
-    height: 40%;
+    height: 60%;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -31,11 +32,14 @@ const Anchor = styled.a`
     margin-bottom: 20px;
   }
   h1 {
+    font-weight: 600;
+    padding: 0 20px;
     margin-bottom: 20px;
     font-size: ${mainStyle.titleSize};
     color: ${mainStyle.titleColor};
   }
   p {
+    padding: 0 20px;
     font-size: ${mainStyle.descSize};
     color: ${mainStyle.descColor};
   }
