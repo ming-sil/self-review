@@ -16,8 +16,18 @@ const Box = styled.div`
 
 export const ColorChange = () => {
   const [color, setColor] = useState(" lightblue ");
+  const [bool, setBool] = useState(true);
 
-  const handleColor = () => setColor("teal");
+  //   const handleColor = () => setColor("teal");
+  const handleColor = () => {
+    if (bool) {
+      setColor("teal");
+      setBool(false);
+    } else if (!bool) {
+      setColor("lightblue");
+      setBool(true);
+    }
+  };
 
   return (
     <>
