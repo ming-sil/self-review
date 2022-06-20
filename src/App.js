@@ -5,6 +5,7 @@ import { progLangDb } from "./components/0616/DB";
 import { StyleComponentEx } from "./components/0616/StyleComponentsEx";
 import { ColorChange } from "./components/0620/ColorChange";
 import { ColorSelect } from "./components/0620/ColorSelect";
+import { ImgSelect } from "./components/0620/ImgSelect";
 import { GlobalStyled } from "./styles/GlobalStyles";
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       {/* 3 */}
       <ColorChange />
       <ColorSelect />
+      <ImgSelect />
     </>
   );
 }
