@@ -5,7 +5,8 @@ import { progLangDb } from "./components/0616/DB";
 import { StyleComponentEx } from "./components/0616/StyleComponentsEx";
 import { ColorChange } from "./components/0620/ColorChange";
 import { ColorSelect } from "./components/0620/ColorSelect";
-import { ImgSelect } from "./components/0620/ImgSelect";
+import { ImgSelect, ImgSelect2 } from "./components/0620/ImgSelect";
+import { BaseRouter } from "./components/0621/BaseRouter";
 import { GlobalStyled } from "./styles/GlobalStyles";
 
 function App() {
@@ -21,9 +22,12 @@ function App() {
       <Ans datas={progLangDb} /> */}
 
       {/* 3 */}
-      <ColorChange />
+      {/* <ColorChange />
       <ColorSelect />
-      <ImgSelect />
+      <ImgSelect /> */}
+
+      {/* 4 */}
+      <BaseRouter />
     </>
   );
 }
